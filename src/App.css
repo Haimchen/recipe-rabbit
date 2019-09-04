@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header {
+  border-bottom: 2px solid #e5e5e5;
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: blueviolet;
+  color: white;
+}
+
+.recipe-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.recipe-card {
+  cursor: pointer;
+  display: inline-block;
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #eaeaea;
+  width: 30%;
+}
+
+.recipe {
+  max-width: 800px;
+}
+
+.recipe-footer {
+  border-top: 2px solid #e5e5e5;
+}
+
+.tag {
+  background-color: lightblue;
+  padding: 3px 7px;
+  border-radius: 7px;
+}
+
+button {
+  border: none;
+  background-color: unset;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+button.back {
+  margin-top: 20px;
+}
+
+button.close {
+  font-size: 20pt;
+  float: right;
+  background-color: bisque;
+  border-radius: 25px;
+  padding: 0px 10px 5px 11px;
+}
